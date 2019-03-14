@@ -29,6 +29,14 @@ function calcularPromedios(calificaciones, promedios){
   }
 }
 
+function imprimirResultados(promedios){
+	let impresion = "";
+	for(let i = 0; i < 20; i++){
+		impresion = promedios[i]
+		alert("Promedio: " + impresion);
+	}
+}
+
 /**
  * QA: Luis Gerardo Leon Ortega
  *
